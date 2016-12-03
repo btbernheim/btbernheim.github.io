@@ -1,0 +1,52 @@
+body {background:#E0FFFF}
+
+table {border: 3px solid black;
+	border-collapse: collapse;
+	width: 38%;
+	}
+
+table > tr, th, td {border: 1px solid black;
+	}
+
+th, td {
+	height: 25px;
+	text-align: center;
+}
+
+a:visited { 
+    color: #FF1493;
+}
+
+footer {
+	font-style: italic;
+}
+
+img.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img#sizing {
+	height: 320px ; 
+	width: 520px ;
+}
+
+h1#header1 {
+
+}
+
+div#nutrition {
+	width: 740px;
+	height: 470px;
+	background-image: url(http://www.proedgetraining.com/sites/default/files/eatright.jpg);
+	border: solid 1px;
+	text-shadow: white 0px 0px 4px;
+	background-size: 750px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1#h1center {
+	text-align: center
+}
