@@ -21,6 +21,10 @@ footer {
 	font-style: italic;
 }
 
+h1 {
+	text-align: center
+}
+
 img.center {
 	display: block;
     margin-left: auto;
@@ -29,10 +33,6 @@ img.center {
 img#sizing {
 	height: 320px ; 
 	width: 520px ;
-}
-
-h1#header1 {
-
 }
 
 div#nutrition {
@@ -47,6 +47,13 @@ div#nutrition {
     margin-right: auto;
 }
 
-h1#h1center {
-	text-align: center
+p#textcenter {
+	margin-top: 135px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h1, h2, h3 {
+	font-family: Helvetica;
 }
