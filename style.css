@@ -54,6 +54,26 @@ p#textcenter {
 	padding-right: 20px;
 }
 
+form.formbox {
+	border: 3px solid black;
+	margin: 5px;
+	padding: 5px;
+}
+
+h2#h2center {
+	text-align: center
+}
+
+
+
+
+
+
+
+
+
+
+
 h1, h2, h3 {
 	font-family: Helvetica;
 }
