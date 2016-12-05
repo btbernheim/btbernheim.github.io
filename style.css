@@ -26,14 +26,36 @@ footer {
 	font-style: italic;
 }
 
-h1 {
-	text-align: center
+h1, h2, h3 {
+	font-family: Helvetica;
+	border: 3px solid white;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
 }
+
+header > p {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+h1.h1center	{
+	margin-top: 0px
+}
+	
 
 img.center {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+form.formbox {
+	border: 3px solid black;
+	margin: 5px;
+	padding: 5px;
 }
 	
 img#sizing {
@@ -68,38 +90,20 @@ p#photocred2 {
 	margin-left: 70%;
 }
 
-form.formbox {
-	border: 3px solid black;
-	margin: 5px;
-	padding: 5px;
+p:hover, ul:hover, ol:hover {
+	background-color: #FFFF00;
 }
 
-h2#h2center {
-	text-align: center
+@media screen and (max-width: 540px) {
+    body {
+        background-color: lightgreen;
+    }
 }
 
-h1, h2, h3 {
-	font-family: Helvetica;
-}
-
-/*@media screen and (max-width: 500px) {
-  section#external-links {
-    display: block;
-    margin: auto;
-    width: 100%;
-    min-width: 100px;
-  }
-  section#external-links>h1 {
-    text-align: center;
-  }
-   section#external-links>ul>li {
-    text-align: center;
+@media screen and (max-width: 538px) {
+  h1, h2, h3 {
+  	min-width: 120px
   }
 }
 
-@media screen and (max-width: 500px) {
-  main>h1 {
-    font-size: 100%;
-    text-align: center;
-  }
-*/
+
