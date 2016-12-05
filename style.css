@@ -28,11 +28,11 @@ footer {
 
 h1, h2, h3 {
 	font-family: Helvetica;
-	border: 3px solid white;
+	border: 2px solid white;
 	margin-left: 200px;
 	margin-right: 200px;
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 1px;
 	padding-bottom: 5px;
 }
 
