@@ -36,11 +36,13 @@ header > p {
 h1.heading1 {
 	font-family: Helvetica;
 	border: 2px solid #2F4F4F;
+	margin-top: 5px;
 	margin-left: 200px;
 	margin-right: 200px;
 	text-align: center;
-	padding-top: 1px;
+	padding-top: 5px;
 	padding-bottom: 5px;
+	background-color: #FFEBCD;
 }
 
 h2.heading2 {
@@ -51,12 +53,8 @@ h2.heading2 {
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	background-color: #FFEBCD;
 }
-
-h1.h1center	{
-	margin-top: 0px
-}
-	
 
 img.center {
 	display: block;
@@ -95,7 +93,7 @@ div#nutrition {
 }
 
 p#textcenter {
-	margin-top: 155px;
+	margin-top: 140px;
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -103,10 +101,12 @@ p#textcenter {
 
 p#photocred {
 	margin-left: 59%;
+	font-size: 14px;
 }
 
 p#photocred2 {
 	margin-left: 70%;
+	font-size: 14px;
 }
 
 p:hover, ul:hover, ol:hover {
@@ -115,7 +115,7 @@ p:hover, ul:hover, ol:hover {
 
 @media screen and (max-width: 540px) {
     body {
-        background-color: lightgreen;
+        background-color: white;
     }
 }
 
@@ -124,4 +124,6 @@ p:hover, ul:hover, ol:hover {
   	min-width: 120px
   }
 }
+
+
 
