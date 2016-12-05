@@ -32,6 +32,8 @@ h1, h2, h3 {
 	margin-left: 200px;
 	margin-right: 200px;
 	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 header > p {
@@ -55,7 +57,9 @@ img.center {
 form.formbox {
 	border: 3px solid black;
 	margin: 5px;
-	padding: 5px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
 }
 	
 img#sizing {
@@ -65,7 +69,7 @@ img#sizing {
 
 div#nutrition {
 	width: 740px;
-	height: 470px;
+	height: 480px;
 	background-image: url(http://www.proedgetraining.com/sites/default/files/eatright.jpg);
 	border: solid 1px;
 	text-shadow: white 0px 0px 4px;
