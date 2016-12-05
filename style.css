@@ -26,9 +26,16 @@ footer {
 	font-style: italic;
 }
 
-h1, h2, h3 {
+header > p {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+h1.heading1 {
 	font-family: Helvetica;
-	border: 2px solid white;
+	border: 2px solid #2F4F4F;
 	margin-left: 200px;
 	margin-right: 200px;
 	text-align: center;
@@ -36,11 +43,14 @@ h1, h2, h3 {
 	padding-bottom: 5px;
 }
 
-header > p {
+h2.heading2 {
+	font-family: Helvetica;
+	border: 2px solid #2F4F4F;
+	margin-left: 200px;
+	margin-right: 200px;
 	text-align: center;
-	font-size: 20px;
-	margin-left: 25px;
-	margin-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 h1.h1center	{
