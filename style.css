@@ -71,6 +71,11 @@ form.formbox {
 	padding-left: 10px;
 	padding-bottom: 10px;
 }
+
+th.fontchange {
+	font-family: Tahoma, sans-serif;
+	font-style: oblique; 
+}
 	
 img#sizing {
 	height: 320px ; 
